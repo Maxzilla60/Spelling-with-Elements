@@ -68,7 +68,7 @@ function listToString(list) {
 	var output = "";
 	// We construct a string that will show the elements' symbols that hyperlink to their wiki page
 	for (i = 0; i < list.length; i++) {
-		output += "<a href=\"https://en.wikipedia.org/wiki/"+list[i][1]+"\">"+list[i][0]+"</a>";
+		output += "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/"+list[i][1]+"\">"+list[i][0]+"</a>";
 		if (i != list.length-1) {
 			output += ", ";
 		}
