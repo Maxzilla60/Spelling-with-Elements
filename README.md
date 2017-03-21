@@ -10,9 +10,12 @@ This little website will take any word and try to spell it out using the symboli
 Here are a few examples that work:
 * Cereal
 * Chocolate
+* Heisenberg
+* Iron
 * Kryptonite
 * Olives
 * Sincere
+* Soysauce
 * [Vsauce](https://www.youtube.com/channel/UClq42foiSgl7sSpLupnugGA)
 * Water
 

@@ -76,7 +76,7 @@ function listToString(list) {
 	for (i = 0; i < list.length; i++) {
 		output += "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/"+list[i][1]+"\">"+list[i][0]+"</a>";
 		if (i != list.length-1) {
-			output += " ";
+			output += " • ";
 		}
 	}
 	return output;
