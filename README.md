@@ -13,7 +13,10 @@ Here are a few examples that work:
 * Kryptonite
 * Olives
 * Sincere
-* VSauce
+* [Vsauce](https://www.youtube.com/channel/UClq42foiSgl7sSpLupnugGA)
 * Water
 
 Feel free to post an [issue](https://github.com/Maxzilla60/Spelling-with-Elements/issues) with examples you've found!
+
+### FontAwesome
+This project makes use of [FontAwesome](http://fontawesome.io/).
