@@ -1,5 +1,4 @@
 * [Use images for the elements](https://iupac.org/what-we-do/periodic-table-of-elements/)!
-* Footer text (Github link, Twitter)
 * PHP URL requests?
 * Pretty-fy website
 	* More color!
