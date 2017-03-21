@@ -21,5 +21,5 @@ Here are a few examples that work:
 
 Feel free to post an [issue](https://github.com/Maxzilla60/Spelling-with-Elements/issues) with examples you've found!
 
-### FontAwesome
-This project makes use of [FontAwesome](http://fontawesome.io/).
+#### External Technologies
+This project makes use of [Bootstrap](http://getbootstrap.com/) and [FontAwesome](http://fontawesome.io/).
