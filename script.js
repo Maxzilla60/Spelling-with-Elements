@@ -29,7 +29,13 @@ function doTheThing() {
 		// We re-sort the list according to where the element is found in the string
 		filteredlist.sort(function(a,b){return a[2] - b[2];});
 		// If we didn't find a nice spelling we give the filtered list
-		setOutput("Sorry, we couldn't find a nice spelling. :(<br>Here are all chemical elements that fit the input:<br>"+listToString(filteredlist));
+		setOutput("Sorry, we couldn't find a nice spelling. "
+			+"<i class=\"fa fa-frown-o\" aria-hidden=\"true\"></i>"
+			+"<br>Here are all chemical elements that fit the input:<br>"+listToString(filteredlist));
+	}
+	else if (chemlist.length == 0) {
+		// If the generated list is empty, we show the nice FontAwesome flask
+		setOutput("<i class=\"fa fa-flask fa-2x\" aria-hidden=\"true\">");
 	}
 	else {
 		// If we did, we show it!
@@ -70,7 +76,7 @@ function listToString(list) {
 	for (i = 0; i < list.length; i++) {
 		output += "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/"+list[i][1]+"\">"+list[i][0]+"</a>";
 		if (i != list.length-1) {
-			output += ", ";
+			output += " ";
 		}
 	}
 	return output;
