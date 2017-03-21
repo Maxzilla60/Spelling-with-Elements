@@ -24,8 +24,12 @@
 				height: 8px;
 			}
 			input, output, button, .form-control, .btn {
-				width: 38%;
+				max-width: 768px;
 				margin: auto;
+				font-size: xx-large;
+			}
+			.form-control {
+				height: 60px
 			}
 			footer {
 				font-size: 100%;
@@ -43,11 +47,11 @@
 		<p><h6>Spell out a word using the elements on the periodic table!</h6></p>
 		<form onsubmit="return doTheThing();">
 			<input class="form-control" type="text" id="input" value="kryptonite" autofocus>
-			<button class="btn btn-primary" type="submit" value="try">try</button>
+			<button class="btn btn-primary btn-block" type="submit" value="try">try</button>
 			<output class="well"><i class="fa fa-flask fa-2x" aria-hidden="true"></i></output>
 		</form>
 		<footer>
-			<a target="_blank" href="https://github.com/Maxzilla60/Spelling-with-Elements"><i class="fa fa-github" aria-hidden="true"></i></a> • 
+			<a target="_blank" href="https://github.com/Maxzilla60/Spelling-with-Elements"><i class="fa fa-github" aria-hidden="true"></i></a> 
 			<a target="_blank" href="https://twitter.com/hungrymaxzilla"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 		</footer>
 	</body>
