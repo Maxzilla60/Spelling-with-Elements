@@ -32,6 +32,7 @@ function doTheThing() {
 		}
 		// If there's nothing in the filtered list:
 		else {
+			debugger;
 			setOutput(sorry);
 		}
 	}
