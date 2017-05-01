@@ -3,4 +3,3 @@
 * Automatic updating of the Elements list?
 * Split CSS?
 * Screenshots in `README.md`?
-* Send to VSAUCE!!
