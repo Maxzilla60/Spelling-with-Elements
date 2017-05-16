@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* The hole element */
+.element{
+	border: solid black 1px;
+	/* The size of the elements is here ! */
+	height: 100px;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+/* Remove decoration of links */
+.eltLink, .eltLink:hover, .eltLink:visited, .eltLink:active{
+	color: inherit;
+	text-decoration: inherit;
+	display: block;
+}
+
+/* Big letter(s) in the center */
+.letter{
+	font-weight: bold;
+}
+
+/* All the text of the element */
+.text{
+	text-align: center;
+}
+
+/* Colors for different types of elements */
+.metalloid{
+	background-color: #cccc99;
+}
+
+.polyatomicnonmetal{
+	background-color: #a1ffc3;
+}
+
+.diatomicnonmetal{
+	background-color: #e7ff8f;
+}
+
+.noblegas{
+	background-color: #c0ffff;
+}
+
+.alkalimetal{
+	background-color: #ff6666;
+}
+
+.alkalineearthmetal{
+	background-color: #ffdead;
+}
+
+.lanthanide{
+	background-color: #ffbfff;
+}
+
+.actinide{
+	background-color: #ff99cc;
+}
+
+.transitionmetal{
+	background-color: #ffc0c0;
+}
+
+.post-transitionmetal{
+	background-color: #cccccc;
+}
+
+.unknown{
+	background-color: #e8e8e8;
+}
