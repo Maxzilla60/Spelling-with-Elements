@@ -10,7 +10,7 @@
 }
 
 /* Remove decoration of links */
-.eltLink, .eltLink:hover, .eltLink:visited, .eltLink:active{
+.element a, .element a:hover, .element a:visited, .element a:active{
 	color: inherit;
 	text-decoration: inherit;
 	display: block;

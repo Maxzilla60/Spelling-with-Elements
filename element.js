@@ -76,7 +76,7 @@ class Element{
 	// Return a string HTML formated showing the element
 	toString(){
 		var retour = "<div id=\"" + this.letter + "\" class=\"element " + this.type + "\">" + 
-			"<a class=\"eltLink\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/" + this.name + "\">" + 
+			"<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/" + this.name + "\">" + 
 				"<div class=\"number text\">" + this.number + "</div>" + 
 				"<div class=\"letter text\">" + this.letter + "</div>" +
 				"<div class=\"name text\">" + this.name + "</div>" + 
