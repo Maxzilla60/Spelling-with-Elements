@@ -21,6 +21,11 @@
 	font-weight: bold;
 }
 
+/* Hover to emphasize hyperlink */
+.letter:hover {
+	color: #337AB7;
+}
+
 /* All the text of the element */
 .text{
 	text-align: center;
