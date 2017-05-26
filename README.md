@@ -22,4 +22,4 @@ Here are a few examples that work:
 Feel free to post an [issue](https://github.com/Maxzilla60/Spelling-with-Elements/issues) with examples you've found!
 
 #### External Technologies
-This project makes use of [Bootstrap](http://getbootstrap.com/) and [FontAwesome](http://fontawesome.io/).
+This project makes use of [Bootstrap](http://getbootstrap.com/), [FontAwesome](http://fontawesome.io/) and [Periodic-Table-JSON](https://github.com/Bowserinator/Periodic-Table-JSON).
