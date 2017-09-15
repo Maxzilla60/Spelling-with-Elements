@@ -1,10 +1,12 @@
 # Spelling with Elements
 Spell out a word using the elements on the periodic table!
+[**Featured on VSauce (DONG)!**](https://youtu.be/AoZx4HN_Q6o?t=3m50s)
 
 ## What?
 [**See it in action!**](https://maxzilla60.github.io/Spelling-with-Elements/)
 
 This little website will take any word and try to spell it out using the symbolic names of the elements on the periodic table.
+Clicking on each element will bring you to their respective Wikipedia page.
 
 ## Examples
 Here are a few examples that work:
