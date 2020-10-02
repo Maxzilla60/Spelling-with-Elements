@@ -23,7 +23,15 @@ var elts = {
             "ypos": 1,
             "shells": [
                 1
-            ]
+            ],
+            "electron_configuration": "1s1",
+            "electron_configuration_semantic": "1s1",
+            "electron_affinity": 72.769,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                1312
+            ],
+            "cpk-hex": "ffffff"
         },
         {
             "name": "Helium",
@@ -48,7 +56,16 @@ var elts = {
             "ypos": 1,
             "shells": [
                 2
-            ]
+            ],
+            "electron_configuration": "1s2",
+            "electron_configuration_semantic": "1s2",
+            "electron_affinity": -48,
+            "electronegativity_pauling": null,
+            "ionization_energies": [
+                2372.3,
+                5250.5
+            ],
+            "cpk-hex": "d9ffff"
         },
         {
             "name": "Lithium",
@@ -67,13 +84,24 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lithium",
             "spectral_img": null,
-            "summary": "Lithium (from Greek:\u03bb\u03af\u03b8\u03bf\u03c2 lithos, \"stone\") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.",
+            "summary": "Lithium (from Greek:λίθος lithos, \"stone\") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.",
             "symbol": "Li",
             "xpos": 1,
             "ypos": 2,
             "shells": [
+                2,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s1",
+            "electron_configuration_semantic": "[He] 2s1",
+            "electron_affinity": 59.6326,
+            "electronegativity_pauling": 0.98,
+            "ionization_energies": [
+                520.2,
+                7298.1,
+                11815
+            ],
+            "cpk-hex": "cc80ff"
         },
         {
             "name": "Beryllium",
@@ -97,8 +125,20 @@ var elts = {
             "xpos": 2,
             "ypos": 2,
             "shells": [
+                2,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2",
+            "electron_configuration_semantic": "[He] 2s2",
+            "electron_affinity": -48,
+            "electronegativity_pauling": 1.57,
+            "ionization_energies": [
+                899.5,
+                1757.1,
+                14848.7,
+                21006.6
+            ],
+            "cpk-hex": "c2ff00"
         },
         {
             "name": "Boron",
@@ -122,8 +162,21 @@ var elts = {
             "xpos": 13,
             "ypos": 2,
             "shells": [
+                2,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p1",
+            "electron_configuration_semantic": "[He] 2s2 2p1",
+            "electron_affinity": 26.989,
+            "electronegativity_pauling": 2.04,
+            "ionization_energies": [
+                800.6,
+                2427.1,
+                3659.7,
+                25025.8,
+                32826.7
+            ],
+            "cpk-hex": "ffb5b5"
         },
         {
             "name": "Carbon",
@@ -142,13 +195,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Carbon",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Carbon_Spectra.jpg",
-            "summary": "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent\u2014making four electrons available to form covalent chemical bonds.",
+            "summary": "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds.",
             "symbol": "C",
             "xpos": 14,
             "ypos": 2,
             "shells": [
+                2,
                 4
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p2",
+            "electron_configuration_semantic": "[He] 2s2 2p2",
+            "electron_affinity": 121.7763,
+            "electronegativity_pauling": 2.55,
+            "ionization_energies": [
+                1086.5,
+                2352.6,
+                4620.5,
+                6222.7,
+                37831,
+                47277
+            ],
+            "cpk-hex": "909090"
         },
         {
             "name": "Nitrogen",
@@ -172,8 +239,23 @@ var elts = {
             "xpos": 15,
             "ypos": 2,
             "shells": [
+                2,
                 5
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p3",
+            "electron_configuration_semantic": "[He] 2s2 2p3",
+            "electron_affinity": -6.8,
+            "electronegativity_pauling": 3.04,
+            "ionization_energies": [
+                1402.3,
+                2856,
+                4578.1,
+                7475,
+                9444.9,
+                53266.6,
+                64360
+            ],
+            "cpk-hex": "3050f8"
         },
         {
             "name": "Oxygen",
@@ -197,8 +279,24 @@ var elts = {
             "xpos": 16,
             "ypos": 2,
             "shells": [
+                2,
                 6
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p4",
+            "electron_configuration_semantic": "[He] 2s2 2p4",
+            "electron_affinity": 140.976,
+            "electronegativity_pauling": 3.44,
+            "ionization_energies": [
+                1313.9,
+                3388.3,
+                5300.5,
+                7469.2,
+                10989.5,
+                13326.5,
+                71330,
+                84078
+            ],
+            "cpk-hex": "ff0d0d"
         },
         {
             "name": "Fluorine",
@@ -208,7 +306,7 @@ var elts = {
             "category": "diatomic nonmetal",
             "color": null,
             "density": 1.696,
-            "discovered_by": "Andr\u00e9-Marie Amp\u00e8re",
+            "discovered_by": "André-Marie Ampère",
             "melt": 53.48,
             "molar_heat": null,
             "named_by": "Humphry Davy",
@@ -222,8 +320,25 @@ var elts = {
             "xpos": 17,
             "ypos": 2,
             "shells": [
+                2,
                 7
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p5",
+            "electron_configuration_semantic": "[He] 2s2 2p5",
+            "electron_affinity": 328.1649,
+            "electronegativity_pauling": 3.98,
+            "ionization_energies": [
+                1681,
+                3374.2,
+                6050.4,
+                8407.7,
+                11022.7,
+                15164.1,
+                17868,
+                92038.1,
+                106434.3
+            ],
+            "cpk-hex": "90e050"
         },
         {
             "name": "Neon",
@@ -247,8 +362,26 @@ var elts = {
             "xpos": 18,
             "ypos": 2,
             "shells": [
+                2,
                 8
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6",
+            "electron_configuration_semantic": "[He] 2s2 2p6",
+            "electron_affinity": -116,
+            "electronegativity_pauling": null,
+            "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+            ],
+            "cpk-hex": "b3e3f5"
         },
         {
             "name": "Sodium",
@@ -267,14 +400,33 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Sodium",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Sodium_Spectra.jpg",
-            "summary": "Sodium /\u02c8so\u028adi\u0259m/ is a chemical element with symbol Na (from Ancient Greek \u039d\u03ac\u03c4\u03c1\u03b9\u03bf) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
+            "summary": "Sodium /ˈsoʊdiəm/ is a chemical element with symbol Na (from Ancient Greek Νάτριο) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
             "symbol": "Na",
             "xpos": 1,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s1",
+            "electron_configuration_semantic": "[Ne] 3s1",
+            "electron_affinity": 52.867,
+            "electronegativity_pauling": 0.93,
+            "ionization_energies": [
+                495.8,
+                4562,
+                6910.3,
+                9543,
+                13354,
+                16613,
+                20117,
+                25496,
+                28932,
+                141362,
+                159076
+            ],
+            "cpk-hex": "ab5cf2"
         },
         {
             "name": "Magnesium",
@@ -298,9 +450,29 @@ var elts = {
             "xpos": 2,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2",
+            "electron_configuration_semantic": "[Ne] 3s2",
+            "electron_affinity": -40,
+            "electronegativity_pauling": 1.31,
+            "ionization_energies": [
+                737.7,
+                1450.7,
+                7732.7,
+                10542.5,
+                13630,
+                18020,
+                21711,
+                25661,
+                31653,
+                35458,
+                169988,
+                189368
+            ],
+            "cpk-hex": "8aff00"
         },
         {
             "name": "Aluminium",
@@ -324,9 +496,30 @@ var elts = {
             "xpos": 13,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p1",
+            "electron_configuration_semantic": "[Ne] 3s2 3p1",
+            "electron_affinity": 41.762,
+            "electronegativity_pauling": 1.61,
+            "ionization_energies": [
+                577.5,
+                1816.7,
+                2744.8,
+                11577,
+                14842,
+                18379,
+                23326,
+                27465,
+                31853,
+                38473,
+                42647,
+                201266,
+                222316
+            ],
+            "cpk-hex": "bfa6a6"
         },
         {
             "name": "Silicon",
@@ -336,7 +529,7 @@ var elts = {
             "category": "metalloid",
             "color": null,
             "density": 2.329,
-            "discovered_by": "J\u00f6ns Jacob Berzelius",
+            "discovered_by": "Jöns Jacob Berzelius",
             "melt": 1687,
             "molar_heat": 19.789,
             "named_by": "Thomas Thomson (chemist)",
@@ -350,9 +543,31 @@ var elts = {
             "xpos": 14,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 4
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p2",
+            "electron_configuration_semantic": "[Ne] 3s2 3p2",
+            "electron_affinity": 134.0684,
+            "electronegativity_pauling": 1.9,
+            "ionization_energies": [
+                786.5,
+                1577.1,
+                3231.6,
+                4355.5,
+                16091,
+                19805,
+                23780,
+                29287,
+                33878,
+                38726,
+                45962,
+                50502,
+                235196,
+                257923
+            ],
+            "cpk-hex": "f0c8a0"
         },
         {
             "name": "Phosphorus",
@@ -361,7 +576,7 @@ var elts = {
             "boil": null,
             "category": "polyatomic nonmetal",
             "color": null,
-            "density": null,
+            "density": 1.823,
             "discovered_by": "Hennig Brand",
             "melt": null,
             "molar_heat": 23.824,
@@ -371,14 +586,37 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Phosphorus",
             "spectral_img": null,
-            "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms\u2014white phosphorus and red phosphorus\u2014but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
+            "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms—white phosphorus and red phosphorus—but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
             "symbol": "P",
             "xpos": 15,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 5
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
+            "electron_configuration_semantic": "[Ne] 3s2 3p3",
+            "electron_affinity": 72.037,
+            "electronegativity_pauling": 2.19,
+            "ionization_energies": [
+                1011.8,
+                1907,
+                2914.1,
+                4963.6,
+                6273.9,
+                21267,
+                25431,
+                29872,
+                35905,
+                40950,
+                46261,
+                54110,
+                59024,
+                271791,
+                296195
+            ],
+            "cpk-hex": "ff8000"
         },
         {
             "name": "Sulfur",
@@ -402,9 +640,33 @@ var elts = {
             "xpos": 16,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 6
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p4",
+            "electron_configuration_semantic": "[Ne] 3s2 3p4",
+            "electron_affinity": 200.4101,
+            "electronegativity_pauling": 2.58,
+            "ionization_energies": [
+                999.6,
+                2252,
+                3357,
+                4556,
+                7004.3,
+                8495.8,
+                27107,
+                31719,
+                36621,
+                43177,
+                48710,
+                54460,
+                62930,
+                68216,
+                311048,
+                337138
+            ],
+            "cpk-hex": "ffff30"
         },
         {
             "name": "Chlorine",
@@ -428,9 +690,34 @@ var elts = {
             "xpos": 17,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 7
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
+            "electron_configuration_semantic": "[Ne] 3s2 3p5",
+            "electron_affinity": 348.575,
+            "electronegativity_pauling": 3.16,
+            "ionization_energies": [
+                1251.2,
+                2298,
+                3822,
+                5158.6,
+                6542,
+                9362,
+                11018,
+                33604,
+                38600,
+                43961,
+                51068,
+                57119,
+                63363,
+                72341,
+                78095,
+                352994,
+                380760
+            ],
+            "cpk-hex": "1ff01f"
         },
         {
             "name": "Argon",
@@ -454,9 +741,35 @@ var elts = {
             "xpos": 18,
             "ypos": 3,
             "shells": [
+                2,
                 8,
                 8
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6",
+            "electron_configuration_semantic": "[Ne] 3s2 3p6",
+            "electron_affinity": -96,
+            "electronegativity_pauling": null,
+            "ionization_energies": [
+                1520.6,
+                2665.8,
+                3931,
+                5771,
+                7238,
+                8781,
+                11995,
+                13842,
+                40760,
+                46186,
+                52002,
+                59653,
+                66199,
+                72918,
+                82473,
+                88576,
+                397605,
+                427066
+            ],
+            "cpk-hex": "80d1e3"
         },
         {
             "name": "Potassium",
@@ -480,10 +793,37 @@ var elts = {
             "xpos": 1,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 8,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
+            "electron_configuration_semantic": "[Ar] 4s1",
+            "electron_affinity": 48.383,
+            "electronegativity_pauling": 0.82,
+            "ionization_energies": [
+                418.8,
+                3052,
+                4420,
+                5877,
+                7975,
+                9590,
+                11343,
+                14944,
+                16963.7,
+                48610,
+                54490,
+                60730,
+                68950,
+                75900,
+                83080,
+                93400,
+                99710,
+                444880,
+                476063
+            ],
+            "cpk-hex": "8f40d4"
         },
         {
             "name": "Calcium",
@@ -507,10 +847,38 @@ var elts = {
             "xpos": 2,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
+            "electron_configuration_semantic": "[Ar] 4s2",
+            "electron_affinity": 2.37,
+            "electronegativity_pauling": 1,
+            "ionization_energies": [
+                589.8,
+                1145.4,
+                4912.4,
+                6491,
+                8153,
+                10496,
+                12270,
+                14206,
+                18191,
+                20385,
+                57110,
+                63410,
+                70110,
+                78890,
+                86310,
+                94000,
+                104900,
+                111711,
+                494850,
+                527762
+            ],
+            "cpk-hex": "3dff00"
         },
         {
             "name": "Scandium",
@@ -534,10 +902,39 @@ var elts = {
             "xpos": 3,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d1",
+            "electron_configuration_semantic": "[Ar] 3d1 4s2",
+            "electron_affinity": 18,
+            "electronegativity_pauling": 1.36,
+            "ionization_energies": [
+                633.1,
+                1235,
+                2388.6,
+                7090.6,
+                8843,
+                10679,
+                13310,
+                15250,
+                17370,
+                21726,
+                24102,
+                66320,
+                73010,
+                80160,
+                89490,
+                97400,
+                105600,
+                117000,
+                124270,
+                547530,
+                582163
+            ],
+            "cpk-hex": "e6e6e6"
         },
         {
             "name": "Titanium",
@@ -561,10 +958,40 @@ var elts = {
             "xpos": 4,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 10,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d2",
+            "electron_configuration_semantic": "[Ar] 3d2 4s2",
+            "electron_affinity": 7.289,
+            "electronegativity_pauling": 1.54,
+            "ionization_energies": [
+                658.8,
+                1309.8,
+                2652.5,
+                4174.6,
+                9581,
+                11533,
+                13590,
+                16440,
+                18530,
+                20833,
+                25575,
+                28125,
+                76015,
+                83280,
+                90880,
+                100700,
+                109100,
+                117800,
+                129900,
+                137530,
+                602930,
+                639294
+            ],
+            "cpk-hex": "bfc2c7"
         },
         {
             "name": "Vanadium",
@@ -573,8 +1000,8 @@ var elts = {
             "boil": 3680,
             "category": "transition metal",
             "color": null,
-            "density": 6.0,
-            "discovered_by": "Andr\u00e9s Manuel del R\u00edo",
+            "density": 6,
+            "discovered_by": "Andrés Manuel del Río",
             "melt": 2183,
             "molar_heat": 24.89,
             "named_by": "Isotopes of vanadium",
@@ -588,10 +1015,41 @@ var elts = {
             "xpos": 5,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 11,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d3",
+            "electron_configuration_semantic": "[Ar] 3d3 4s2",
+            "electron_affinity": 50.911,
+            "electronegativity_pauling": 1.63,
+            "ionization_energies": [
+                650.9,
+                1414,
+                2830,
+                4507,
+                6298.7,
+                12363,
+                14530,
+                16730,
+                19860,
+                22240,
+                24670,
+                29730,
+                32446,
+                86450,
+                94170,
+                102300,
+                112700,
+                121600,
+                130700,
+                143400,
+                151440,
+                661050,
+                699144
+            ],
+            "cpk-hex": "a6a6ab"
         },
         {
             "name": "Chromium",
@@ -615,10 +1073,42 @@ var elts = {
             "xpos": 6,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 13,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1 3d5",
+            "electron_configuration_semantic": "[Ar] 3d5 4s1",
+            "electron_affinity": 65.21,
+            "electronegativity_pauling": 1.66,
+            "ionization_energies": [
+                652.9,
+                1590.6,
+                2987,
+                4743,
+                6702,
+                8744.9,
+                15455,
+                17820,
+                20190,
+                23580,
+                26130,
+                28750,
+                34230,
+                37066,
+                97510,
+                105800,
+                114300,
+                125300,
+                134700,
+                144300,
+                157700,
+                166090,
+                721870,
+                761733
+            ],
+            "cpk-hex": "8a99c7"
         },
         {
             "name": "Manganese",
@@ -642,10 +1132,43 @@ var elts = {
             "xpos": 7,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 13,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d5",
+            "electron_configuration_semantic": "[Ar] 3d5 4s2",
+            "electron_affinity": -50,
+            "electronegativity_pauling": 1.55,
+            "ionization_energies": [
+                717.3,
+                1509,
+                3248,
+                4940,
+                6990,
+                9220,
+                11500,
+                18770,
+                21400,
+                23960,
+                27590,
+                30330,
+                33150,
+                38880,
+                41987,
+                109480,
+                118100,
+                127100,
+                138600,
+                148500,
+                158600,
+                172500,
+                181380,
+                785450,
+                827067
+            ],
+            "cpk-hex": "9c7ac7"
         },
         {
             "name": "Iron",
@@ -669,10 +1192,44 @@ var elts = {
             "xpos": 8,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 14,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d6",
+            "electron_configuration_semantic": "[Ar] 3d6 4s2",
+            "electron_affinity": 14.785,
+            "electronegativity_pauling": 1.83,
+            "ionization_energies": [
+                762.5,
+                1561.9,
+                2957,
+                5290,
+                7240,
+                9560,
+                12060,
+                14580,
+                22540,
+                25290,
+                28000,
+                31920,
+                34830,
+                37840,
+                44100,
+                47206,
+                122200,
+                131000,
+                140500,
+                152600,
+                163000,
+                173600,
+                188100,
+                195200,
+                851800,
+                895161
+            ],
+            "cpk-hex": "e06633"
         },
         {
             "name": "Cobalt",
@@ -696,10 +1253,45 @@ var elts = {
             "xpos": 9,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 15,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d7",
+            "electron_configuration_semantic": "[Ar] 3d7 4s2",
+            "electron_affinity": 63.898,
+            "electronegativity_pauling": 1.88,
+            "ionization_energies": [
+                760.4,
+                1648,
+                3232,
+                4950,
+                7670,
+                9840,
+                12440,
+                15230,
+                17959,
+                26570,
+                29400,
+                32400,
+                36600,
+                39700,
+                42800,
+                49396,
+                52737,
+                134810,
+                145170,
+                154700,
+                167400,
+                178100,
+                189300,
+                204500,
+                214100,
+                920870,
+                966023
+            ],
+            "cpk-hex": "f090a0"
         },
         {
             "name": "Nickel",
@@ -723,10 +1315,46 @@ var elts = {
             "xpos": 10,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 16,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d8",
+            "electron_configuration_semantic": "[Ar] 3d8 4s2",
+            "electron_affinity": 111.65,
+            "electronegativity_pauling": 1.91,
+            "ionization_energies": [
+                737.1,
+                1753,
+                3395,
+                5300,
+                7339,
+                10400,
+                12800,
+                15600,
+                18600,
+                21670,
+                30970,
+                34000,
+                37100,
+                41500,
+                44800,
+                48100,
+                55101,
+                58570,
+                148700,
+                159000,
+                169400,
+                182700,
+                194000,
+                205600,
+                221400,
+                231490,
+                992718,
+                1039668
+            ],
+            "cpk-hex": "50d050"
         },
         {
             "name": "Copper",
@@ -750,10 +1378,47 @@ var elts = {
             "xpos": 11,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1 3d10",
+            "electron_configuration_semantic": "[Ar] 3d10 4s1",
+            "electron_affinity": 119.235,
+            "electronegativity_pauling": 1.9,
+            "ionization_energies": [
+                745.5,
+                1957.9,
+                3555,
+                5536,
+                7700,
+                9900,
+                13400,
+                16000,
+                19200,
+                22400,
+                25600,
+                35600,
+                38700,
+                42000,
+                46700,
+                50200,
+                53700,
+                61100,
+                64702,
+                163700,
+                174100,
+                184900,
+                198800,
+                210500,
+                222700,
+                239100,
+                249660,
+                1067358,
+                1116105
+            ],
+            "cpk-hex": "c88033"
         },
         {
             "name": "Zinc",
@@ -777,10 +1442,39 @@ var elts = {
             "xpos": 12,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2",
+            "electron_affinity": -58,
+            "electronegativity_pauling": 1.65,
+            "ionization_energies": [
+                906.4,
+                1733.3,
+                3833,
+                5731,
+                7970,
+                10400,
+                12900,
+                16800,
+                19600,
+                23000,
+                26400,
+                29990,
+                40490,
+                43800,
+                47300,
+                52300,
+                55900,
+                59700,
+                67300,
+                71200,
+                179100
+            ],
+            "cpk-hex": "7d80b0"
         },
         {
             "name": "Gallium",
@@ -799,15 +1493,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Gallium",
             "spectral_img": null,
-            "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 \u00b0C (85.57 \u00b0F) (slightly above room temperature).",
+            "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 °C (85.57 °F) (slightly above room temperature).",
             "symbol": "Ga",
             "xpos": 13,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p1",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2 4p1",
+            "electron_affinity": 41,
+            "electronegativity_pauling": 1.81,
+            "ionization_energies": [
+                578.8,
+                1979.3,
+                2963,
+                6180
+            ],
+            "cpk-hex": "c28f8f"
         },
         {
             "name": "Germanium",
@@ -831,10 +1537,23 @@ var elts = {
             "xpos": 14,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 4
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p2",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2 4p2",
+            "electron_affinity": 118.9352,
+            "electronegativity_pauling": 2.01,
+            "ionization_energies": [
+                762,
+                1537.5,
+                3302.1,
+                4411,
+                9020
+            ],
+            "cpk-hex": "668f8f"
         },
         {
             "name": "Arsenic",
@@ -858,10 +1577,24 @@ var elts = {
             "xpos": 15,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 5
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p3",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2 4p3",
+            "electron_affinity": 77.65,
+            "electronegativity_pauling": 2.18,
+            "ionization_energies": [
+                947,
+                1798,
+                2735,
+                4837,
+                6043,
+                12310
+            ],
+            "cpk-hex": "bd80e3"
         },
         {
             "name": "Selenium",
@@ -871,7 +1604,7 @@ var elts = {
             "category": "polyatomic nonmetal",
             "color": null,
             "density": 4.81,
-            "discovered_by": "J\u00f6ns Jakob Berzelius",
+            "discovered_by": "Jöns Jakob Berzelius",
             "melt": 494,
             "molar_heat": 25.363,
             "named_by": null,
@@ -885,20 +1618,35 @@ var elts = {
             "xpos": 16,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 6
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p4",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2 4p4",
+            "electron_affinity": 194.9587,
+            "electronegativity_pauling": 2.55,
+            "ionization_energies": [
+                941,
+                2045,
+                2973.7,
+                4144,
+                6590,
+                7880,
+                14990
+            ],
+            "cpk-hex": "ffa100"
         },
         {
             "name": "Bromine",
             "appearance": null,
             "atomic_mass": 79.904,
-            "boil": 332.0,
+            "boil": 332,
             "category": "diatomic nonmetal",
             "color": null,
-            "density": 23.1028,
-            "discovered_by": "Antoine J\u00e9r\u00f4me Balard",
+            "density": 3.1028,
+            "discovered_by": "Antoine Jérôme Balard",
             "melt": 265.8,
             "molar_heat": null,
             "named_by": null,
@@ -907,15 +1655,31 @@ var elts = {
             "phase": "Liquid",
             "source": "https://en.wikipedia.org/wiki/Bromine",
             "spectral_img": null,
-            "summary": "Bromine (from Ancient Greek:\u03b2\u03c1\u1ff6\u03bc\u03bf\u03c2, br\u00f3mos, meaning \"stench\") is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob L\u00f6wig and Antoine Jerome Balard, in 1825\u20131826.",
+            "summary": "Bromine (from Ancient Greek:βρῶμος, brómos, meaning \"stench\") is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob Löwig and Antoine Jerome Balard, in 1825–1826.",
             "symbol": "Br",
             "xpos": 17,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 7
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2 4p5",
+            "electron_affinity": 324.537,
+            "electronegativity_pauling": 2.96,
+            "ionization_energies": [
+                1139.9,
+                2103,
+                3470,
+                4560,
+                5760,
+                8550,
+                9940,
+                18600
+            ],
+            "cpk-hex": "a62929"
         },
         {
             "name": "Krypton",
@@ -934,15 +1698,53 @@ var elts = {
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Krypton",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Krypton_Spectrum.jpg",
-            "summary": "Krypton (from Greek:\u03ba\u03c1\u03c5\u03c0\u03c4\u03cc\u03c2 kryptos \"the hidden one\") is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.",
+            "summary": "Krypton (from Greek:κρυπτός kryptos \"the hidden one\") is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.",
             "symbol": "Kr",
             "xpos": 18,
             "ypos": 4,
             "shells": [
+                2,
                 8,
                 18,
                 8
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6",
+            "electron_configuration_semantic": "[Ar] 3d10 4s2 4p6",
+            "electron_affinity": -96,
+            "electronegativity_pauling": 3,
+            "ionization_energies": [
+                1350.8,
+                2350.4,
+                3565,
+                5070,
+                6240,
+                7570,
+                10710,
+                12138,
+                22274,
+                25880,
+                29700,
+                33800,
+                37700,
+                43100,
+                47500,
+                52200,
+                57100,
+                61800,
+                75800,
+                80400,
+                85300,
+                90400,
+                96300,
+                101400,
+                111100,
+                116290,
+                282500,
+                296200,
+                311400,
+                326200
+            ],
+            "cpk-hex": "5cb8d1"
         },
         {
             "name": "Rubidium",
@@ -966,11 +1768,29 @@ var elts = {
             "xpos": 1,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 8,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1",
+            "electron_configuration_semantic": "[Kr] 5s1",
+            "electron_affinity": 46.884,
+            "electronegativity_pauling": 0.82,
+            "ionization_energies": [
+                403,
+                2633,
+                3860,
+                5080,
+                6850,
+                8140,
+                9570,
+                13120,
+                14500,
+                26740
+            ],
+            "cpk-hex": "702eb0"
         },
         {
             "name": "Strontium",
@@ -994,11 +1814,30 @@ var elts = {
             "xpos": 2,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2",
+            "electron_configuration_semantic": "[Kr] 5s2",
+            "electron_affinity": 5.023,
+            "electronegativity_pauling": 0.95,
+            "ionization_energies": [
+                549.5,
+                1064.2,
+                4138,
+                5500,
+                6910,
+                8760,
+                10230,
+                11800,
+                15600,
+                17100,
+                31270
+            ],
+            "cpk-hex": "00ff00"
         },
         {
             "name": "Yttrium",
@@ -1022,11 +1861,31 @@ var elts = {
             "xpos": 3,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1",
+            "electron_configuration_semantic": "[Kr] 4d1 5s2",
+            "electron_affinity": 29.6,
+            "electronegativity_pauling": 1.22,
+            "ionization_energies": [
+                600,
+                1180,
+                1980,
+                5847,
+                7430,
+                8970,
+                11190,
+                12450,
+                14110,
+                18400,
+                19900,
+                36090
+            ],
+            "cpk-hex": "94ffff"
         },
         {
             "name": "Zirconium",
@@ -1045,16 +1904,30 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Zirconium",
             "spectral_img": null,
-            "summary": "Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun \u0632\u0631\u06af\u0648\u0646, meaning \"gold-colored\".",
+            "summary": "Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun زرگون, meaning \"gold-colored\".",
             "symbol": "Zr",
             "xpos": 4,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 10,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d2",
+            "electron_configuration_semantic": "[Kr] 4d2 5s2",
+            "electron_affinity": 41.806,
+            "electronegativity_pauling": 1.33,
+            "ionization_energies": [
+                640.1,
+                1270,
+                2218,
+                3313,
+                7752,
+                9500
+            ],
+            "cpk-hex": "94e0e0"
         },
         {
             "name": "Niobium",
@@ -1078,11 +1951,26 @@ var elts = {
             "xpos": 5,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 12,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d4",
+            "electron_configuration_semantic": "[Kr] 4d4 5s1",
+            "electron_affinity": 88.516,
+            "electronegativity_pauling": 1.6,
+            "ionization_energies": [
+                652.1,
+                1380,
+                2416,
+                3700,
+                4877,
+                9847,
+                12100
+            ],
+            "cpk-hex": "73c2c9"
         },
         {
             "name": "Molybdenum",
@@ -1101,16 +1989,54 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Molybdenum",
             "spectral_img": null,
-            "summary": "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek \u039c\u03cc\u03bb\u03c5\u03b2\u03b4\u03bf\u03c2 molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.",
+            "summary": "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek Μόλυβδος molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.",
             "symbol": "Mo",
             "xpos": 6,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 13,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d5",
+            "electron_configuration_semantic": "[Kr] 4d5 5s1",
+            "electron_affinity": 72.1,
+            "electronegativity_pauling": 2.16,
+            "ionization_energies": [
+                684.3,
+                1560,
+                2618,
+                4480,
+                5257,
+                6640.8,
+                12125,
+                13860,
+                15835,
+                17980,
+                20190,
+                22219,
+                26930,
+                29196,
+                52490,
+                55000,
+                61400,
+                67700,
+                74000,
+                80400,
+                87000,
+                93400,
+                98420,
+                104400,
+                121900,
+                127700,
+                133800,
+                139800,
+                148100,
+                154500
+            ],
+            "cpk-hex": "54b5b5"
         },
         {
             "name": "Technetium",
@@ -1120,7 +2046,7 @@ var elts = {
             "category": "transition metal",
             "color": null,
             "density": 11,
-            "discovered_by": "Emilio Segr\u00e8",
+            "discovered_by": "Emilio Segrè",
             "melt": 2430,
             "molar_heat": 24.27,
             "named_by": null,
@@ -1129,16 +2055,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Technetium",
             "spectral_img": null,
-            "summary": "Technetium (/t\u025bk\u02c8ni\u02d0\u0283i\u0259m/) is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.",
+            "summary": "Technetium (/tɛkˈniːʃiəm/) is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.",
             "symbol": "Tc",
             "xpos": 7,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 13,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d5",
+            "electron_configuration_semantic": "[Kr] 4d5 5s2",
+            "electron_affinity": 53,
+            "electronegativity_pauling": 1.9,
+            "ionization_energies": [
+                702,
+                1470,
+                2850
+            ],
+            "cpk-hex": "3b9e9e"
         },
         {
             "name": "Ruthenium",
@@ -1162,11 +2099,22 @@ var elts = {
             "xpos": 8,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 15,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d7",
+            "electron_configuration_semantic": "[Kr] 4d7 5s1",
+            "electron_affinity": 100.96,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                710.2,
+                1620,
+                2747
+            ],
+            "cpk-hex": "248f8f"
         },
         {
             "name": "Rhodium",
@@ -1190,11 +2138,22 @@ var elts = {
             "xpos": 9,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 16,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d8",
+            "electron_configuration_semantic": "[Kr] 4d8 5s1",
+            "electron_affinity": 110.27,
+            "electronegativity_pauling": 2.28,
+            "ionization_energies": [
+                719.7,
+                1740,
+                2997
+            ],
+            "cpk-hex": "0a7d8c"
         },
         {
             "name": "Palladium",
@@ -1218,10 +2177,21 @@ var elts = {
             "xpos": 10,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 4d10",
+            "electron_configuration_semantic": "[Kr] 4d10",
+            "electron_affinity": 54.24,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                804.4,
+                1870,
+                3177
+            ],
+            "cpk-hex": "006985"
         },
         {
             "name": "Silver",
@@ -1240,16 +2210,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Silver",
             "spectral_img": null,
-            "summary": "Silver is a chemical element with symbol Ag (Greek:\u03ac\u03c1\u03b3\u03c5\u03c1\u03bf\u03c2 \u00e1rguros, Latin:argentum, both from the Indo-European root *h\u2082er\u01f5- for \"grey\" or \"shining\") and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.",
+            "summary": "Silver is a chemical element with symbol Ag (Greek:άργυρος árguros, Latin:argentum, both from the Indo-European root *h₂erǵ- for \"grey\" or \"shining\") and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.",
             "symbol": "Ag",
             "xpos": 11,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d10",
+            "electron_configuration_semantic": "[Kr] 4d10 5s1",
+            "electron_affinity": 125.862,
+            "electronegativity_pauling": 1.93,
+            "ionization_energies": [
+                731,
+                2070,
+                3361
+            ],
+            "cpk-hex": "c0c0c0"
         },
         {
             "name": "Cadmium",
@@ -1273,11 +2254,22 @@ var elts = {
             "xpos": 12,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2",
+            "electron_affinity": -68,
+            "electronegativity_pauling": 1.69,
+            "ionization_energies": [
+                867.8,
+                1631.4,
+                3616
+            ],
+            "cpk-hex": "ffd98f"
         },
         {
             "name": "Indium",
@@ -1301,15 +2293,27 @@ var elts = {
             "xpos": 13,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p1",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2 5p1",
+            "electron_affinity": 37.043,
+            "electronegativity_pauling": 1.78,
+            "ionization_energies": [
+                558.3,
+                1820.7,
+                2704,
+                5210
+            ],
+            "cpk-hex": "a67573"
         },
         {
             "name": "Tin",
-            "appearance": "silvery-white (beta, \u03b2) or gray (alpha, \u03b1)",
+            "appearance": "silvery-white (beta, β) or gray (alpha, α)",
             "atomic_mass": 118.7107,
             "boil": 2875,
             "category": "post-transition metal",
@@ -1329,11 +2333,24 @@ var elts = {
             "xpos": 14,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 4
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p2",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2 5p2",
+            "electron_affinity": 107.2984,
+            "electronegativity_pauling": 1.96,
+            "ionization_energies": [
+                708.6,
+                1411.8,
+                2943,
+                3930.3,
+                7456
+            ],
+            "cpk-hex": "668080"
         },
         {
             "name": "Antimony",
@@ -1357,11 +2374,25 @@ var elts = {
             "xpos": 15,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 5
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p3",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2 5p3",
+            "electron_affinity": 101.059,
+            "electronegativity_pauling": 2.05,
+            "ionization_energies": [
+                834,
+                1594.9,
+                2440,
+                4260,
+                5400,
+                10400
+            ],
+            "cpk-hex": "9e63b5"
         },
         {
             "name": "Tellurium",
@@ -1371,7 +2402,7 @@ var elts = {
             "category": "metalloid",
             "color": null,
             "density": 6.24,
-            "discovered_by": "Franz-Joseph M\u00fcller von Reichenstein",
+            "discovered_by": "Franz-Joseph Müller von Reichenstein",
             "melt": 722.66,
             "molar_heat": 25.73,
             "named_by": null,
@@ -1385,11 +2416,26 @@ var elts = {
             "xpos": 16,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 6
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p4",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2 5p4",
+            "electron_affinity": 190.161,
+            "electronegativity_pauling": 2.1,
+            "ionization_energies": [
+                869.3,
+                1790,
+                2698,
+                3610,
+                5668,
+                6820,
+                13200
+            ],
+            "cpk-hex": "d47a00"
         },
         {
             "name": "Iodine",
@@ -1408,16 +2454,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Iodine",
             "spectral_img": null,
-            "summary": "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek \u1f30\u03bf\u03b5\u03b9\u03b4\u03ae\u03c2 ioeid\u0113s, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.",
+            "summary": "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek ἰοειδής ioeidēs, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.",
             "symbol": "I",
             "xpos": 17,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 7
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p5",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2 5p5",
+            "electron_affinity": 295.1531,
+            "electronegativity_pauling": 2.66,
+            "ionization_energies": [
+                1008.4,
+                1845.9,
+                3180
+            ],
+            "cpk-hex": "940094"
         },
         {
             "name": "Xenon",
@@ -1441,11 +2498,22 @@ var elts = {
             "xpos": 18,
             "ypos": 5,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 8
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6",
+            "electron_configuration_semantic": "[Kr] 4d10 5s2 5p6",
+            "electron_affinity": -77,
+            "electronegativity_pauling": 2.6,
+            "ionization_energies": [
+                1170.4,
+                2046.4,
+                3099.4
+            ],
+            "cpk-hex": "429eb0"
         },
         {
             "name": "Cesium",
@@ -1464,17 +2532,28 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Cesium",
             "spectral_img": null,
-            "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 \u00b0C (82 \u00b0F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
+            "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 °C (82 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
             "symbol": "Cs",
             "xpos": 1,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 8,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1",
+            "electron_configuration_semantic": "[Xe] 6s1",
+            "electron_affinity": 45.505,
+            "electronegativity_pauling": 0.79,
+            "ionization_energies": [
+                375.7,
+                2234.3,
+                3400
+            ],
+            "cpk-hex": "57178f"
         },
         {
             "name": "Barium",
@@ -1498,12 +2577,23 @@ var elts = {
             "xpos": 2,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2",
+            "electron_configuration_semantic": "[Xe] 6s2",
+            "electron_affinity": 13.954,
+            "electronegativity_pauling": 0.89,
+            "ionization_energies": [
+                502.9,
+                965.2,
+                3600
+            ],
+            "cpk-hex": "00c900"
         },
         {
             "name": "Lanthanum",
@@ -1527,12 +2617,25 @@ var elts = {
             "xpos": 3,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 18,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1",
+            "electron_configuration_semantic": "[Xe] 5d16s2",
+            "electron_affinity": 53,
+            "electronegativity_pauling": 1.1,
+            "ionization_energies": [
+                538.1,
+                1067,
+                1850.3,
+                4819,
+                5940
+            ],
+            "cpk-hex": "70d4ff"
         },
         {
             "name": "Cerium",
@@ -1556,12 +2659,26 @@ var elts = {
             "xpos": 4,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 19,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1 4f1",
+            "electron_configuration_semantic": "[Xe] 4f1 5d1 6s2",
+            "electron_affinity": 55,
+            "electronegativity_pauling": 1.12,
+            "ionization_energies": [
+                534.4,
+                1050,
+                1949,
+                3547,
+                6325,
+                7490
+            ],
+            "cpk-hex": "ffffc7"
         },
         {
             "name": "Praseodymium",
@@ -1585,12 +2702,25 @@ var elts = {
             "xpos": 5,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 21,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f3",
+            "electron_configuration_semantic": "[Xe] 4f3 6s2",
+            "electron_affinity": 93,
+            "electronegativity_pauling": 1.13,
+            "ionization_energies": [
+                527,
+                1020,
+                2086,
+                3761,
+                5551
+            ],
+            "cpk-hex": "d9ffc7"
         },
         {
             "name": "Neodymium",
@@ -1614,12 +2744,24 @@ var elts = {
             "xpos": 6,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 22,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f4",
+            "electron_configuration_semantic": "[Xe] 4f4 6s2",
+            "electron_affinity": 184.87,
+            "electronegativity_pauling": 1.14,
+            "ionization_energies": [
+                533.1,
+                1040,
+                2130,
+                3900
+            ],
+            "cpk-hex": "c7ffc7"
         },
         {
             "name": "Promethium",
@@ -1643,12 +2785,24 @@ var elts = {
             "xpos": 7,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 23,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f5",
+            "electron_configuration_semantic": "[Xe] 4f5 6s2",
+            "electron_affinity": 12.45,
+            "electronegativity_pauling": 1.13,
+            "ionization_energies": [
+                540,
+                1050,
+                2150,
+                3970
+            ],
+            "cpk-hex": "a3ffc7"
         },
         {
             "name": "Samarium",
@@ -1672,12 +2826,24 @@ var elts = {
             "xpos": 8,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 24,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f6",
+            "electron_configuration_semantic": "[Xe] 4f6 6s2",
+            "electron_affinity": 15.63,
+            "electronegativity_pauling": 1.17,
+            "ionization_energies": [
+                544.5,
+                1070,
+                2260,
+                3990
+            ],
+            "cpk-hex": "8fffc7"
         },
         {
             "name": "Europium",
@@ -1687,7 +2853,7 @@ var elts = {
             "category": "lanthanide",
             "color": null,
             "density": 5.264,
-            "discovered_by": "Eug\u00e8ne-Anatole Demar\u00e7ay",
+            "discovered_by": "Eugène-Anatole Demarçay",
             "melt": 1099,
             "molar_heat": 27.66,
             "named_by": null,
@@ -1701,12 +2867,24 @@ var elts = {
             "xpos": 9,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 25,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7",
+            "electron_configuration_semantic": "[Xe] 4f7 6s2",
+            "electron_affinity": 11.2,
+            "electronegativity_pauling": 1.2,
+            "ionization_energies": [
+                547.1,
+                1085,
+                2404,
+                4120
+            ],
+            "cpk-hex": "61ffc7"
         },
         {
             "name": "Gadolinium",
@@ -1730,12 +2908,24 @@ var elts = {
             "xpos": 10,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 25,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7 5d1",
+            "electron_configuration_semantic": "[Xe] 4f7 5d1 6s2",
+            "electron_affinity": 13.22,
+            "electronegativity_pauling": 1.2,
+            "ionization_energies": [
+                593.4,
+                1170,
+                1990,
+                4250
+            ],
+            "cpk-hex": "45ffc7"
         },
         {
             "name": "Terbium",
@@ -1759,12 +2949,24 @@ var elts = {
             "xpos": 11,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 27,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f9",
+            "electron_configuration_semantic": "[Xe] 4f9 6s2",
+            "electron_affinity": 112.4,
+            "electronegativity_pauling": 1.1,
+            "ionization_energies": [
+                565.8,
+                1110,
+                2114,
+                3839
+            ],
+            "cpk-hex": "30ffc7"
         },
         {
             "name": "Dysprosium",
@@ -1788,12 +2990,24 @@ var elts = {
             "xpos": 12,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 28,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f10",
+            "electron_configuration_semantic": "[Xe] 4f10 6s2",
+            "electron_affinity": 33.96,
+            "electronegativity_pauling": 1.22,
+            "ionization_energies": [
+                573,
+                1130,
+                2200,
+                3990
+            ],
+            "cpk-hex": "1fffc7"
         },
         {
             "name": "Holmium",
@@ -1817,12 +3031,24 @@ var elts = {
             "xpos": 13,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 29,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f11",
+            "electron_configuration_semantic": "[Xe] 4f11 6s2",
+            "electron_affinity": 32.61,
+            "electronegativity_pauling": 1.23,
+            "ionization_energies": [
+                581,
+                1140,
+                2204,
+                4100
+            ],
+            "cpk-hex": "00ff9c"
         },
         {
             "name": "Erbium",
@@ -1846,12 +3072,24 @@ var elts = {
             "xpos": 14,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 30,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f12",
+            "electron_configuration_semantic": "[Xe] 4f12 6s2",
+            "electron_affinity": 30.1,
+            "electronegativity_pauling": 1.24,
+            "ionization_energies": [
+                589.3,
+                1150,
+                2194,
+                4120
+            ],
+            "cpk-hex": "00e675"
         },
         {
             "name": "Thulium",
@@ -1875,12 +3113,24 @@ var elts = {
             "xpos": 15,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 31,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f13",
+            "electron_configuration_semantic": "[Xe] 4f13 6s2",
+            "electron_affinity": 99,
+            "electronegativity_pauling": 1.25,
+            "ionization_energies": [
+                596.7,
+                1160,
+                2285,
+                4120
+            ],
+            "cpk-hex": "00d452"
         },
         {
             "name": "Ytterbium",
@@ -1904,12 +3154,24 @@ var elts = {
             "xpos": 16,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14",
+            "electron_configuration_semantic": "[Xe] 4f14 6s2",
+            "electron_affinity": -1.93,
+            "electronegativity_pauling": 1.1,
+            "ionization_energies": [
+                603.4,
+                1174.8,
+                2417,
+                4203
+            ],
+            "cpk-hex": "00bf38"
         },
         {
             "name": "Lutetium",
@@ -1933,12 +3195,25 @@ var elts = {
             "xpos": 17,
             "ypos": 9,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d1",
+            "electron_configuration_semantic": "[Xe] 4f14 5d1 6s2",
+            "electron_affinity": 33.4,
+            "electronegativity_pauling": 1.27,
+            "ionization_energies": [
+                523.5,
+                1340,
+                2022.3,
+                4370,
+                6445
+            ],
+            "cpk-hex": "00ab24"
         },
         {
             "name": "Hafnium",
@@ -1962,12 +3237,24 @@ var elts = {
             "xpos": 4,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 10,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d2",
+            "electron_configuration_semantic": "[Xe] 4f14 5d2 6s2",
+            "electron_affinity": 17.18,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                658.5,
+                1440,
+                2250,
+                3216
+            ],
+            "cpk-hex": "4dc2ff"
         },
         {
             "name": "Tantalum",
@@ -1991,12 +3278,22 @@ var elts = {
             "xpos": 5,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 11,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d3",
+            "electron_configuration_semantic": "[Xe] 4f14 5d3 6s2",
+            "electron_affinity": 31,
+            "electronegativity_pauling": 1.5,
+            "ionization_energies": [
+                761,
+                1500
+            ],
+            "cpk-hex": "4da6ff"
         },
         {
             "name": "Tungsten",
@@ -2020,12 +3317,22 @@ var elts = {
             "xpos": 6,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 12,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d4",
+            "electron_configuration_semantic": "[Xe] 4f14 5d4 6s2",
+            "electron_affinity": 78.76,
+            "electronegativity_pauling": 2.36,
+            "ionization_energies": [
+                770,
+                1700
+            ],
+            "cpk-hex": "2194d6"
         },
         {
             "name": "Rhenium",
@@ -2049,12 +3356,24 @@ var elts = {
             "xpos": 7,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 13,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d5",
+            "electron_configuration_semantic": "[Xe] 4f14 5d5 6s2",
+            "electron_affinity": 5.8273,
+            "electronegativity_pauling": 1.9,
+            "ionization_energies": [
+                760,
+                1260,
+                2510,
+                3640
+            ],
+            "cpk-hex": "267dab"
         },
         {
             "name": "Osmium",
@@ -2073,17 +3392,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Osmium",
             "spectral_img": null,
-            "summary": "Osmium (from Greek osme (\u1f40\u03c3\u03bc\u03ae) meaning \"smell\") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 7004225900000000000\u266022.59 g/cm3.",
+            "summary": "Osmium (from Greek osme (ὀσμή) meaning \"smell\") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.",
             "symbol": "Os",
             "xpos": 8,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 14,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d6",
+            "electron_configuration_semantic": "[Xe] 4f14 5d6 6s2",
+            "electron_affinity": 103.99,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                840,
+                1600
+            ],
+            "cpk-hex": "266696"
         },
         {
             "name": "Iridium",
@@ -2102,17 +3431,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Iridium",
             "spectral_img": null,
-            "summary": "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 \u00b0C. Although only certain molten salts and halogens are corrosive to solid iridium, finely divided iridium dust is much more reactive and can be flammable.",
+            "summary": "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 °C. Although only certain molten salts and halogens are corrosive to solid iridium, finely divided iridium dust is much more reactive and can be flammable.",
             "symbol": "Ir",
             "xpos": 9,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 15,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d7",
+            "electron_configuration_semantic": "[Xe] 4f14 5d7 6s2",
+            "electron_affinity": 150.94,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                880,
+                1600
+            ],
+            "cpk-hex": "175487"
         },
         {
             "name": "Platinum",
@@ -2136,12 +3475,22 @@ var elts = {
             "xpos": 10,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 17,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d9",
+            "electron_configuration_semantic": "[Xe] 4f14 5d9 6s1",
+            "electron_affinity": 205.041,
+            "electronegativity_pauling": 2.28,
+            "ionization_energies": [
+                870,
+                1791
+            ],
+            "cpk-hex": "d0d0e0"
         },
         {
             "name": "Gold",
@@ -2165,15 +3514,25 @@ var elts = {
             "xpos": 11,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d10",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s1",
+            "electron_affinity": 222.747,
+            "electronegativity_pauling": 2.54,
+            "ionization_energies": [
+                890.1,
+                1980
+            ],
+            "cpk-hex": "ffd123"
         },
         {
-            "name": "Mercury (element)",
+            "name": "Mercury",
             "appearance": "silvery",
             "atomic_mass": 200.5923,
             "boil": 629.88,
@@ -2189,17 +3548,28 @@ var elts = {
             "phase": "Liquid",
             "source": "https://en.wikipedia.org/wiki/Mercury (Element)",
             "spectral_img": null,
-            "summary": "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum (/ha\u026a\u02c8dr\u0251\u02d0rd\u0292\u0259r\u0259m/). A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
+            "summary": "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum (/haɪˈdrɑːrdʒərəm/). A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
             "symbol": "Hg",
             "xpos": 12,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2",
+            "electron_affinity": -48,
+            "electronegativity_pauling": 2,
+            "ionization_energies": [
+                1007.1,
+                1810,
+                3300
+            ],
+            "cpk-hex": "b8b8d0"
         },
         {
             "name": "Thallium",
@@ -2223,12 +3593,23 @@ var elts = {
             "xpos": 13,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p1",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p1",
+            "electron_affinity": 36.4,
+            "electronegativity_pauling": 1.62,
+            "ionization_energies": [
+                589.4,
+                1971,
+                2878
+            ],
+            "cpk-hex": "a6544d"
         },
         {
             "name": "Lead",
@@ -2247,17 +3628,30 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lead_(element)",
             "spectral_img": null,
-            "summary": "Lead (/l\u025bd/) is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
+            "summary": "Lead (/lɛd/) is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
             "symbol": "Pb",
             "xpos": 14,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 4
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p2",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p2",
+            "electron_affinity": 34.4204,
+            "electronegativity_pauling": 1.87,
+            "ionization_energies": [
+                715.6,
+                1450.5,
+                3081.5,
+                4083,
+                6640
+            ],
+            "cpk-hex": "575961"
         },
         {
             "name": "Bismuth",
@@ -2267,7 +3661,7 @@ var elts = {
             "category": "post-transition metal",
             "color": null,
             "density": 9.78,
-            "discovered_by": "Claude Fran\u00e7ois Geoffroy",
+            "discovered_by": "Claude François Geoffroy",
             "melt": 544.7,
             "molar_heat": 25.52,
             "named_by": null,
@@ -2281,12 +3675,26 @@ var elts = {
             "xpos": 15,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 5
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p3",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p3",
+            "electron_affinity": 90.924,
+            "electronegativity_pauling": 2.02,
+            "ionization_energies": [
+                703,
+                1610,
+                2466,
+                4370,
+                5400,
+                8520
+            ],
+            "cpk-hex": "9e4fb5"
         },
         {
             "name": "Polonium",
@@ -2310,12 +3718,21 @@ var elts = {
             "xpos": 16,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 6
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p4",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p4",
+            "electron_affinity": 136,
+            "electronegativity_pauling": 2,
+            "ionization_energies": [
+                812.1
+            ],
+            "cpk-hex": "ab5c00"
         },
         {
             "name": "Astatine",
@@ -2324,7 +3741,7 @@ var elts = {
             "boil": 610,
             "category": "metalloid",
             "color": null,
-            "density": 26.35,
+            "density": 6.35,
             "discovered_by": "Dale R. Corson",
             "melt": 575,
             "molar_heat": null,
@@ -2339,12 +3756,21 @@ var elts = {
             "xpos": 17,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 7
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p5",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p5",
+            "electron_affinity": 233,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                899.003
+            ],
+            "cpk-hex": "754f45"
         },
         {
             "name": "Radon",
@@ -2368,12 +3794,21 @@ var elts = {
             "xpos": 18,
             "ypos": 6,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 8
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6",
+            "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p6",
+            "electron_affinity": -68,
+            "electronegativity_pauling": 2.2,
+            "ionization_energies": [
+                1037
+            ],
+            "cpk-hex": "428296"
         },
         {
             "name": "Francium",
@@ -2397,13 +3832,22 @@ var elts = {
             "xpos": 1,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 8,
                 1
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s1",
+            "electron_configuration_semantic": "[Rn] 7s1",
+            "electron_affinity": 46.89,
+            "electronegativity_pauling": 0.79,
+            "ionization_energies": [
+                380
+            ],
+            "cpk-hex": "420066"
         },
         {
             "name": "Radium",
@@ -2427,19 +3871,29 @@ var elts = {
             "xpos": 2,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2",
+            "electron_configuration_semantic": "[Rn] 7s2",
+            "electron_affinity": 9.6485,
+            "electronegativity_pauling": 0.9,
+            "ionization_energies": [
+                509.3,
+                979
+            ],
+            "cpk-hex": "007d00"
         },
         {
             "name": "Actinium",
             "appearance": null,
             "atomic_mass": 227,
-            "boil": 3500300,
+            "boil": 3500,
             "category": "actinide",
             "color": null,
             "density": 10,
@@ -2457,13 +3911,23 @@ var elts = {
             "xpos": 3,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 6d1",
+            "electron_configuration_semantic": "[Rn] 6d1 7s2",
+            "electron_affinity": 33.77,
+            "electronegativity_pauling": 1.1,
+            "ionization_energies": [
+                499,
+                1170
+            ],
+            "cpk-hex": "70abfa"
         },
         {
             "name": "Thorium",
@@ -2473,7 +3937,7 @@ var elts = {
             "category": "actinide",
             "color": null,
             "density": 11.724,
-            "discovered_by": "J\u00f6ns Jakob Berzelius",
+            "discovered_by": "Jöns Jakob Berzelius",
             "melt": 2023,
             "molar_heat": 26.23,
             "named_by": null,
@@ -2482,18 +3946,30 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Thorium",
             "spectral_img": null,
-            "summary": "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist J\u00f6ns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
+            "summary": "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
             "symbol": "Th",
             "xpos": 4,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 18,
                 10,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 6d2",
+            "electron_configuration_semantic": "[Rn] 6d2 7s2",
+            "electron_affinity": 112.72,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                587,
+                1110,
+                1930,
+                2780
+            ],
+            "cpk-hex": "00baff"
         },
         {
             "name": "Protactinium",
@@ -2517,13 +3993,22 @@ var elts = {
             "xpos": 5,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 20,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f2 6d1",
+            "electron_configuration_semantic": "[Rn] 5f2 6d1 7s2",
+            "electron_affinity": 53.03,
+            "electronegativity_pauling": 1.5,
+            "ionization_energies": [
+                568
+            ],
+            "cpk-hex": "00a1ff"
         },
         {
             "name": "Uranium",
@@ -2547,13 +4032,23 @@ var elts = {
             "xpos": 6,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 21,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f3 6d1",
+            "electron_configuration_semantic": "[Rn] 5f3 6d1 7s2",
+            "electron_affinity": 50.94,
+            "electronegativity_pauling": 1.38,
+            "ionization_energies": [
+                597.6,
+                1420
+            ],
+            "cpk-hex": "008fff"
         },
         {
             "name": "Neptunium",
@@ -2564,7 +4059,7 @@ var elts = {
             "color": null,
             "density": 20.45,
             "discovered_by": "Edwin McMillan",
-            "melt": 9123,
+            "melt": 912,
             "molar_heat": 29.46,
             "named_by": null,
             "number": 93,
@@ -2577,13 +4072,22 @@ var elts = {
             "xpos": 7,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 22,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f4 6d1",
+            "electron_configuration_semantic": "[Rn] 5f4 6d1 7s2",
+            "electron_affinity": 45.85,
+            "electronegativity_pauling": 1.36,
+            "ionization_energies": [
+                604.5
+            ],
+            "cpk-hex": "0080ff"
         },
         {
             "name": "Plutonium",
@@ -2607,13 +4111,22 @@ var elts = {
             "xpos": 8,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 24,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f6",
+            "electron_configuration_semantic": "[Rn] 5f6 7s2",
+            "electron_affinity": -48.33,
+            "electronegativity_pauling": 1.28,
+            "ionization_energies": [
+                584.7
+            ],
+            "cpk-hex": "006bff"
         },
         {
             "name": "Americium",
@@ -2637,13 +4150,22 @@ var elts = {
             "xpos": 9,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 25,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7",
+            "electron_configuration_semantic": "[Rn] 5f7 7s2",
+            "electron_affinity": 9.93,
+            "electronegativity_pauling": 1.13,
+            "ionization_energies": [
+                578
+            ],
+            "cpk-hex": "545cf2"
         },
         {
             "name": "Curium",
@@ -2662,18 +4184,27 @@ var elts = {
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Curium",
             "spectral_img": null,
-            "summary": "Curium is a transuranic radioactive chemical element with symbol Cm and atomic number 96. This element of the actinide series was named after Marie and Pierre Curie \u2013 both were known for their research on radioactivity. Curium was first intentionally produced and identified in July 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley.",
+            "summary": "Curium is a transuranic radioactive chemical element with symbol Cm and atomic number 96. This element of the actinide series was named after Marie and Pierre Curie – both were known for their research on radioactivity. Curium was first intentionally produced and identified in July 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley.",
             "symbol": "Cm",
             "xpos": 10,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 25,
                 9,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7 6d1",
+            "electron_configuration_semantic": "[Rn] 5f7 6d1 7s2",
+            "electron_affinity": 27.17,
+            "electronegativity_pauling": 1.28,
+            "ionization_energies": [
+                581
+            ],
+            "cpk-hex": "785ce3"
         },
         {
             "name": "Berkelium",
@@ -2697,13 +4228,22 @@ var elts = {
             "xpos": 11,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 27,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f9",
+            "electron_configuration_semantic": "[Rn] 5f9 7s2",
+            "electron_affinity": -165.24,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                601
+            ],
+            "cpk-hex": "8a4fe3"
         },
         {
             "name": "Californium",
@@ -2727,13 +4267,22 @@ var elts = {
             "xpos": 12,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 28,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f10",
+            "electron_configuration_semantic": "[Rn] 5f10 7s2",
+            "electron_affinity": -97.31,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                608
+            ],
+            "cpk-hex": "a136d4"
         },
         {
             "name": "Einsteinium",
@@ -2757,13 +4306,22 @@ var elts = {
             "xpos": 13,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 29,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f11",
+            "electron_configuration_semantic": "[Rn] 5f11 7s2",
+            "electron_affinity": -28.6,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                619
+            ],
+            "cpk-hex": "b31fd4"
         },
         {
             "name": "Fermium",
@@ -2787,13 +4345,22 @@ var elts = {
             "xpos": 14,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 30,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f12",
+            "electron_configuration_semantic": "[Rn] 5f12 7s2",
+            "electron_affinity": 33.96,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                627
+            ],
+            "cpk-hex": "b31fba"
         },
         {
             "name": "Mendelevium",
@@ -2817,13 +4384,22 @@ var elts = {
             "xpos": 15,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 31,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f13",
+            "electron_configuration_semantic": "[Rn] 5f13 7s2",
+            "electron_affinity": 93.91,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                635
+            ],
+            "cpk-hex": "b30da6"
         },
         {
             "name": "Nobelium",
@@ -2847,13 +4423,22 @@ var elts = {
             "xpos": 16,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 8,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14",
+            "electron_configuration_semantic": "[Rn] 5f14 7s2",
+            "electron_affinity": -223.22,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                642
+            ],
+            "cpk-hex": "bd0d87"
         },
         {
             "name": "Lawrencium",
@@ -2877,13 +4462,22 @@ var elts = {
             "xpos": 17,
             "ypos": 10,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 8,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 7p1",
+            "electron_configuration_semantic": "[Rn] 5f14 7s2 7p1",
+            "electron_affinity": -30.04,
+            "electronegativity_pauling": 1.3,
+            "ionization_energies": [
+                470
+            ],
+            "cpk-hex": "c70066"
         },
         {
             "name": "Rutherfordium",
@@ -2907,13 +4501,22 @@ var elts = {
             "xpos": 4,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 10,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d2",
+            "electron_configuration_semantic": "[Rn] 5f14 6d2 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [
+                580
+            ],
+            "cpk-hex": "cc0059"
         },
         {
             "name": "Dubnium",
@@ -2937,13 +4540,20 @@ var elts = {
             "xpos": 5,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 11,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d3",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d3 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": "d1004f"
         },
         {
             "name": "Seaborgium",
@@ -2952,7 +4562,7 @@ var elts = {
             "boil": null,
             "category": "transition metal",
             "color": null,
-            "density": 35.0,
+            "density": 35,
             "discovered_by": "Lawrence Berkeley National Laboratory",
             "melt": null,
             "molar_heat": null,
@@ -2967,13 +4577,20 @@ var elts = {
             "xpos": 6,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 12,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d4",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d4 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": "d90045"
         },
         {
             "name": "Bohrium",
@@ -2983,7 +4600,7 @@ var elts = {
             "category": "transition metal",
             "color": null,
             "density": 37.1,
-            "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+            "discovered_by": "Gesellschaft für Schwerionenforschung",
             "melt": null,
             "molar_heat": null,
             "named_by": null,
@@ -2997,13 +4614,20 @@ var elts = {
             "xpos": 7,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 13,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d5",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d5 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": "e00038"
         },
         {
             "name": "Hassium",
@@ -3013,7 +4637,7 @@ var elts = {
             "category": "transition metal",
             "color": null,
             "density": 40.7,
-            "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+            "discovered_by": "Gesellschaft für Schwerionenforschung",
             "melt": 126,
             "molar_heat": null,
             "named_by": null,
@@ -3027,13 +4651,20 @@ var elts = {
             "xpos": 8,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 14,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d6",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d6 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": "e6002e"
         },
         {
             "name": "Meitnerium",
@@ -3043,7 +4674,7 @@ var elts = {
             "category": "unknown, probably transition metal",
             "color": null,
             "density": 37.4,
-            "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+            "discovered_by": "Gesellschaft für Schwerionenforschung",
             "melt": null,
             "molar_heat": null,
             "named_by": null,
@@ -3057,13 +4688,20 @@ var elts = {
             "xpos": 9,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 15,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d7",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d7 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": "eb0026"
         },
         {
             "name": "Darmstadtium",
@@ -3073,7 +4711,7 @@ var elts = {
             "category": "unknown, probably transition metal",
             "color": null,
             "density": 34.8,
-            "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+            "discovered_by": "Gesellschaft für Schwerionenforschung",
             "melt": null,
             "molar_heat": null,
             "named_by": null,
@@ -3087,13 +4725,20 @@ var elts = {
             "xpos": 10,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 16,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d8",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d9 7s1",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Roentgenium",
@@ -3103,7 +4748,7 @@ var elts = {
             "category": "unknown, probably transition metal",
             "color": null,
             "density": 28.7,
-            "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+            "discovered_by": "Gesellschaft für Schwerionenforschung",
             "melt": null,
             "molar_heat": null,
             "named_by": null,
@@ -3117,13 +4762,20 @@ var elts = {
             "xpos": 11,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 17,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d9",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s1",
+            "electron_affinity": 151,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Copernicium",
@@ -3133,7 +4785,7 @@ var elts = {
             "category": "transition metal",
             "color": null,
             "density": 23.7,
-            "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+            "discovered_by": "Gesellschaft für Schwerionenforschung",
             "melt": null,
             "molar_heat": null,
             "named_by": null,
@@ -3147,13 +4799,20 @@ var elts = {
             "xpos": 12,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 2
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Nihonium",
@@ -3177,13 +4836,20 @@ var elts = {
             "xpos": 13,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 3
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p1",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p1",
+            "electron_affinity": 66.6,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Flerovium",
@@ -3207,20 +4873,27 @@ var elts = {
             "xpos": 14,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 4
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p2",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p2",
+            "electron_affinity": null,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Moscovium",
             "appearance": null,
             "atomic_mass": 289,
             "boil": 1400,
-            "category": "unknown, probably post transition metal",
+            "category": "unknown, probably post-transition metal",
             "color": null,
             "density": 13.5,
             "discovered_by": "Joint Institute for Nuclear Research",
@@ -3237,24 +4910,31 @@ var elts = {
             "xpos": 15,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 5
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p3",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p3",
+            "electron_affinity": 35.3,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Livermorium",
             "appearance": null,
             "atomic_mass": 293,
-            "boil": 10351135,
-            "category": "unknown, probably post transition metal",
+            "boil": 1085,
+            "category": "unknown, probably post-transition metal",
             "color": null,
             "density": 12.9,
             "discovered_by": "Joint Institute for Nuclear Research",
-            "melt": 637780,
+            "melt": 709,
             "molar_heat": null,
             "named_by": null,
             "number": 116,
@@ -3267,49 +4947,63 @@ var elts = {
             "xpos": 16,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 6
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p4",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p4",
+            "electron_affinity": 74.9,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Tennessine",
             "appearance": null,
             "atomic_mass": 294,
             "boil": 883,
-            "category": "unknown,probably metalloid",
+            "category": "unknown, probably metalloid",
             "color": null,
             "density": 7.17,
             "discovered_by": "Joint Institute for Nuclear Research",
-            "melt": 623823,
+            "melt": 723,
             "molar_heat": null,
             "named_by": null,
             "number": 117,
             "period": 7,
             "phase": "Solid",
-            "source": "https://en.wikipedia.org/wiki/Ununseptium",
+            "source": "https://en.wikipedia.org/wiki/Tennessine",
             "spectral_img": null,
             "summary": "Tennessine is a superheavy artificial chemical element with an atomic number of 117 and a symbol of Ts. Also known as eka-astatine or element 117, it is the second-heaviest known element and penultimate element of the 7th period of the periodic table. As of 2016, fifteen tennessine atoms have been observed:six when it was first synthesized in 2010, seven in 2012, and two in 2014.",
             "symbol": "Ts",
             "xpos": 17,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 7
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p5",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p5",
+            "electron_affinity": 165.9,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Oganesson",
             "appearance": null,
             "atomic_mass": 294,
-            "boil": 35030,
+            "boil": 350,
             "category": "unknown, predicted to be noble gas",
             "color": null,
             "density": 4.95,
@@ -3320,20 +5014,65 @@ var elts = {
             "number": 118,
             "period": 7,
             "phase": "Solid",
-            "source": "https://en.wikipedia.org/wiki/Ununoctium",
+            "source": "https://en.wikipedia.org/wiki/Oganesson",
             "spectral_img": null,
-            "summary": "Ooganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.",
+            "summary": "Oganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.",
             "symbol": "Og",
             "xpos": 18,
             "ypos": 7,
             "shells": [
+                2,
                 8,
                 18,
                 32,
                 32,
                 18,
                 8
-            ]
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6",
+            "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p6",
+            "electron_affinity": 5.40318,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
+        },
+        {
+            "name": "Ununennium",
+            "appearance": null,
+            "atomic_mass": 315,
+            "boil": 630,
+            "category": "unknown, but predicted to be an alkali metal",
+            "color": null,
+            "density": 3,
+            "discovered_by": "GSI Helmholtz Centre for Heavy Ion Research",
+            "melt": null,
+            "molar_heat": null,
+            "named_by": null,
+            "number": 119,
+            "period": 8,
+            "phase": "Solid",
+            "source": "https://en.wikipedia.org/wiki/Ununennium",
+            "spectral_img": null,
+            "summary": "Ununennium, also known as eka-francium or simply element 119, is the hypothetical chemical element with symbol Uue and atomic number 119. Ununennium and Uue are the temporary systematic IUPAC name and symbol respectively, until a permanent name is decided upon. In the periodic table of the elements, it is expected to be an s-block element, an alkali metal, and the first element in the eighth period.",
+            "symbol": "Uue",
+            "xpos": 1,
+            "ypos": 8,
+            "shells": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                8,
+                1
+            ],
+            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6 8s1",
+            "electron_configuration_semantic": "*[Uuo] 8s1",
+            "electron_affinity": 63.87,
+            "electronegativity_pauling": null,
+            "ionization_energies": [],
+            "cpk-hex": null
         }
     ]
 };
