@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <meta charset="utf-8"/>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<title>Spelling with Elements</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>		
-		<script src="https://use.fontawesome.com/e0304574ea.js"></script>
-		<style>
-			@import url("element.css");
-			
-			* {
-				box-sizing: border-box;
-				/*border-radius: 5px;*/
-				text-align: center;
-				margin: auto;
-				/*font-family: Arial, Helvetica, sans-serif;*/
-				font-size: xx-large;
-			}
-			.space {
-				height: 8px;
-			}
-			input, output, button, .form-control, .btn {
-				max-width: 768px;
-				margin: auto;
-				font-size: xx-large;
-			}
-			.form-control {
-				height: 60px
-			}
-			footer {
-				font-size: 100%;
-				position:fixed;
-				left:0px;
-				bottom:10px;
-				height:30px;
-				width:100%;
-			}
-		</style>
-	</head>
-	
-	<body>
-		<h1>Spelling with Elements</h1>
-		<p><h6>Spell out a word using the elements on the periodic table!</h6></p>
-		<form onsubmit="return doTheThing();">
-			<input class="form-control" type="text" id="input" value="kryptonite" autofocus>
-			<button class="btn btn-primary btn-block" type="submit" value="try">try</button>
-			<output class="well"><i class="fa fa-flask fa-2x" aria-hidden="true"></i></output>
-		</form>
-		<footer>
-			<a target="_blank" href="https://github.com/Maxzilla60/Spelling-with-Elements"><i class="fa fa-github" aria-hidden="true"></i></a> 
-			<a target="_blank" href="https://twitter.com/hungrymaxzilla"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-		</footer>
-	</body>
-	<script type="text/javascript" src="applysizes.js"></script>
-	<script type="text/javascript" src="PeriodicTableJSON.js"></script>
-	<script type="text/javascript" src="element.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spelling with Elements</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/e0304574ea.js"></script>
+	<style>
+        @import url("element.css");
+
+        * {
+            box-sizing: border-box;
+            /*border-radius: 5px;*/
+            text-align: center;
+            margin: auto;
+            /*font-family: Arial, Helvetica, sans-serif;*/
+            font-size: xx-large;
+        }
+
+        .space {
+            height: 8px;
+        }
+
+        input, output, button, .form-control, .btn {
+            max-width: 768px;
+            margin: auto;
+            font-size: xx-large;
+        }
+
+        .form-control {
+            height: 60px
+        }
+
+        footer {
+            font-size: 100%;
+            position: fixed;
+            left: 0px;
+            bottom: 10px;
+            height: 30px;
+            width: 100%;
+        }
+	</style>
+</head>
+
+<body>
+<h1>Spelling with Elements</h1>
+<p><h6>Spell out a word using the elements on the periodic table!</h6></p>
+<form onsubmit="return doTheThing();">
+	<input class="form-control" type="text" id="input" value="kryptonite" autofocus>
+	<button class="btn btn-primary btn-block" type="submit" value="try">try</button>
+	<output class="well"><i class="fa fa-flask fa-2x" aria-hidden="true"></i></output>
+</form>
+<footer>
+	<a target="_blank" href="https://github.com/Maxzilla60/Spelling-with-Elements"><i class="fa fa-github" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://twitter.com/hungrymaxzilla"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</footer>
+</body>
+<script type="text/javascript" src="applysizes.js"></script>
+<script type="text/javascript" src="PeriodicTableJSON.js"></script>
+<script type="text/javascript" src="element.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </html>
